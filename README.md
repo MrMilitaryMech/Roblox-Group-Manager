@@ -23,6 +23,11 @@ You can:
 - memberships - Table of memberships - memberships[userId]
 - getRoleByRank(rank:string)
 - updateUserRole(userId:string, rank:string)
+#### Role:
+- name - Role name - string
+- rank - Role rank - number
+- description - Role description - string
+- memberCount - Role member count
 ```lua
 local module = require(game.ServerScriptService.ModuleScript)
 local group = module.loadGroup("groupId")
