@@ -28,6 +28,11 @@ You can:
 - rank - Role rank - number
 - description - Role description - string
 - memberCount - Role member count
+### Membership:
+- joined - When the user joined in DD:MM:YY HH:MM:SS:MS - string
+- membershipPath - Used for updating a user's role internally - string
+- roleId - The user's role Id - string
+- user - The path of the user who owns this membership - string
 ### Example: 
 ```lua
 local module = require(game.ServerScriptService.ModuleScript)
