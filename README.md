@@ -36,6 +36,7 @@ You can:
 - roleId - The user's role Id - string
 - user - The path of the user who owns this membership - string
 ### Example: 
+
 ```lua
 local module = require(game.ServerScriptService.ModuleScript)
 local group = module.loadGroup("groupId")
