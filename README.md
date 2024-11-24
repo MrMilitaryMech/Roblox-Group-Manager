@@ -1,6 +1,8 @@
 # Roblox-Group-Manager
 Can be used to manage groups from directly in the game.
 
+Download [Here](https://github.com/MrMilitaryMech/Roblox-Group-Manager/blob/main/modulescript.lua)
+
 ## Setup
 1. Make an API key at https://create.roblox.com/dashboard/credentials?activeTab=ApiKeysTab
 2. Give the API key the following permissions: `group:read` & `group:write`
