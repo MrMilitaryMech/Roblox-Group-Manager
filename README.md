@@ -2,7 +2,7 @@
 Can be used to manage groups from directly in the game.
 
 ## Setup
-1. Make an API key [https://create.roblox.com/dashboard/credentials?activeTab=ApiKeysTab](here).
+1. Make an API key at https://create.roblox.com/dashboard/credentials?activeTab=ApiKeysTab
 2. Give the API key the following permissions: `group:read` & `group:write`
 3. Copy the API key and add it into `module.apiKey`
 
