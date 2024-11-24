@@ -13,8 +13,8 @@ You can:
 - Load all group memberships and roles
 - Change a user's role using user ID and rank
 
-### How to use:
-#### Group:
+## How to use:
+### Group:
 - name - Group name - string
 - description - Group description - string
 - memberCount - Group member count - number
@@ -23,11 +23,12 @@ You can:
 - memberships - Table of memberships - memberships[userId]
 - getRoleByRank(rank:string)
 - updateUserRole(userId:string, rank:string)
-#### Role:
+### Role:
 - name - Role name - string
 - rank - Role rank - number
 - description - Role description - string
 - memberCount - Role member count
+### Example: 
 ```lua
 local module = require(game.ServerScriptService.ModuleScript)
 local group = module.loadGroup("groupId")
